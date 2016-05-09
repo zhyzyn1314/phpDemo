@@ -43,7 +43,7 @@ if ($query && $query->num_rows > 0) {
             <td><?php echo $row['name'] ?></td>
             <td><?php echo $row['age'] ?></td>
             <td><?php echo $row['description'] ?></td>
-            <td><a href="editUser.php">编辑</a>|<a href="doAction.php">删除</a></td>
+            <td><a href="editUser.php?id=<?php echo $row['id'] ?>">编辑</a>|<a href="doAction.php?act=delUser&id=<?php echo $row['id'] ?>">删除</a></td>
         </tr>
         <?php $i++; endforeach ?>
 </table>
