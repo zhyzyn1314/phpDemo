@@ -2,7 +2,7 @@
 header('content-type:text/html;charset=utf-8');
 $mysqli = @new mysqli('localhost:3306', 'root', 'root', 'zhy');
 if ($mysqli->connect_errno) {
-    echo 'mysqli connect error : ' . $mysqli->connect_error;
+    die('mysqli connect error : ' . $mysqli->connect_error);
 }
 $mysqli->set_charset('utf8');
 
