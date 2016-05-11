@@ -1,0 +1,35 @@
+body {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+p {
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    min-width: 70px;
+}
+
+label.error {
+    margin-left: 10px;
+    color: red;
+}
+
+input, button {
+    font-size: 16px;
+    line-height: 25px;
+    border: 1px solid #999;
+    min-width: 90px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+input[type=submit], button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 5px 0;
+}
