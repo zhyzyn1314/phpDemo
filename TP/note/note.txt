@@ -1,0 +1,23 @@
+一、目录结构
+    │  │  ├─Think     核心Think类库包目录
+    │  │  ├─Behavior  行为类库目录
+    │  │  ├─Org       Org类库包目录
+    │  │  ├─Vendor    第三方类库目录
+    │  │  ├─ ...      更多类库目录
+    │  ├─Mode         框架应用模式目录
+    │  ├─Tpl          系统模板目录
+    │  ├─LICENSE.txt  框架授权协议文件
+    │  ├─logo.png     框架LOGO文件
+    │  ├─README.txt   框架README文件
+    │  └─ThinkPHP.php    框架入口文件
+
+    生成的目录结构：
+    Tpl          V
+    Lib          M C
+
+二、ThinkPHP URL 模式
+常量：URL_MODEL
+1 默认模式 pathInfo模式
+0 普通模式
+2 重写模式
+3 兼容模式
